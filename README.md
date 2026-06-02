@@ -1,7 +1,7 @@
-## Exp 8: Reproducing an Image Using Prompts for Image Generation
+# Exp 8: Reproducing an Image Using Prompts for Image Generation
 
-# Date :
-# Reg. No. 
+## Date :28.05.2026
+## Reg. No.212224060024
 
 ## Aim:
 To demonstrate the ability of text-to-image generation tools to reproduce an existing image by crafting precise prompts. The goal is to identify key elements within the image and use these details to generate an image as close as possible to the original.
@@ -47,9 +47,151 @@ To demonstrate the ability of text-to-image generation tools to reproduce an exi
 2.	The Final Generated Image: The image created using your refined prompt.
 3.	Prompts Used: The text prompts created during the experiment.
 4.	Comparison Report: A report highlighting the differences and similarities between the original and generated images, along with any adjustments made to the prompt.
+## 🖼️ Image 1 – Mountain Landscape at Sunset
+
+### Original Image
+
+![Original Image 1](https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800)
+
+> *Source: Unsplash – Mountain landscape with sunset*
+
+---
+
+### Prompts Used
+
+#### 🔹 Basic Prompt (Attempt 1)
+```
+A mountain landscape during sunset with a lake in the foreground.
+```
+
+#### 🔹 Refined Prompt (Attempt 2)
+```
+A dramatic mountain range at sunset, with golden and orange sky, 
+a calm reflective lake in the foreground, pine trees along the 
+shoreline, and snow-capped peaks in the background.
+```
+
+#### 🔹 Final Prompt (Attempt 3)
+```
+A breathtaking photorealistic mountain landscape at golden hour sunset. 
+Snow-capped rocky peaks in the background, a crystal-clear alpine lake 
+perfectly reflecting the warm orange and pink sky, dense pine forest 
+framing both sides, soft mist near the water surface, ultra-detailed, 
+high resolution, nature photography style.
+```
+
+---
+
+### Generated Image
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f1df2c1f-457c-4b38-b8bc-3d929620f5cd" />
+
+
+---
+
+### 📊 Comparison Report – Image 1
+
+| Feature | Original Image | Generated Image | Match Level |
+|---------|---------------|-----------------|-------------|
+| **Subject/Objects** | Mountains, lake, pine trees | Mountains, lake, trees | ✅ |
+| **Color Palette** | Warm orange, golden, blue | Warm tones, slight variation | ⚠️ |
+| **Lighting** | Golden hour, soft shadows | Golden hour lighting | ✅ |
+| **Background** | Snow-capped peaks | Rocky peaks rendered | ✅ |
+| **Texture** | Glossy water, rough rocks | Smooth water, decent rocks | ⚠️ |
+| **Composition** | Lake foreground, peaks behind | Similar layout | ✅ |
+| **Style** | Photorealistic | Photorealistic | ✅ |
+
+**Similarities:**
+- Overall composition closely matched with mountain + lake layout
+- Warm sunset color palette reproduced well
+- Photorealistic style retained
+
+**Differences:**
+- Exact tree placement and density varied slightly
+- Water reflection details were less precise in generated image
+- Snow coverage on peaks differed slightly
+
+**Prompt Adjustments Made:**
+- Added "alpine lake" and "reflective" to improve water accuracy
+- Added "pine forest framing both sides" for tree placement
+- Added "soft mist near water surface" for atmospheric depth
+
+---
+
+## 🖼️ Image 2 – Forest Path in Autumn
+
+### Original Image
+
+![Original Image 2](https://images.unsplash.com/photo-1448375240586-882707db888b?w=800)
+
+> *Source: Unsplash – Forest path with autumn foliage*
+
+---
+
+### Prompts Used
+
+#### 🔹 Basic Prompt (Attempt 1)
+```
+A forest path surrounded by trees in autumn colors.
+```
+
+#### 🔹 Refined Prompt (Attempt 2)
+```
+A narrow dirt path winding through a dense autumn forest with red, 
+orange, and yellow leaves on trees, soft sunlight filtering through 
+the canopy, and fallen leaves on the ground.
+```
+
+#### 🔹 Final Prompt (Attempt 3)
+```
+A serene autumn forest path, tall trees with vibrant red, orange, 
+and golden yellow foliage forming a natural tunnel overhead. Soft 
+dappled sunlight streaming through the canopy, a carpet of fallen 
+leaves covering the dirt trail, misty background depth, photorealistic, 
+ultra-detailed, nature photography, warm autumn light.
+```
+
+---
+
+### Generated Image
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6a773e0e-ec1d-4045-90ce-c7669499bf56" />
+
+
+
+---
+
+### 📊 Comparison Report – Image 2
+
+| Feature | Original Image | Generated Image | Match Level |
+|---------|---------------|-----------------|-------------|
+| **Subject/Objects** | Forest path, autumn trees | Forest path, trees | ✅ |
+| **Color Palette** | Red, orange, yellow, brown | Warm autumn tones | ✅ |
+| **Lighting** | Soft dappled sunlight | Sunlight through canopy | ✅ |
+| **Background** | Misty forest depth | Background depth present | ⚠️ |
+| **Texture** | Rough bark, leaf carpet | Decent leaf texture | ⚠️ |
+| **Composition** | Centered path, tall trees | Similar framing | ✅ |
+| **Style** | Photorealistic | Photorealistic | ✅ |
+
+**Similarities:**
+- Autumn color palette (red, orange, yellow) closely reproduced
+- Central path composition matched well
+- Canopy lighting effect captured
+
+**Differences:**
+- Exact tree species and bark texture varied
+- Depth of mist in background less prominent
+- Fallen leaf density on path differed
+
+**Prompt Adjustments Made:**
+- Added "natural tunnel overhead" to capture canopy arch effect
+- Added "carpet of fallen leaves" for ground texture
+- Added "misty background depth" for atmospheric effect
+
+---
 
 ## Conclusion:
 By using detailed and well-crafted prompts, text-to-image generation models can be effective in reproducing an image closely. The quality of the generated image depends on how accurately the prompt describes the image's key elements. The experiment demonstrates the importance of prompt refinement and iteration when working with AI tools to achieve desired outcomes. With practice, the model can generate images that closely match real-world visuals, which is useful for creative and practical applications.
 
 
-## IMAGES: (CHOOSE ANY TWO BELOW AND REPRODUCE)
+
